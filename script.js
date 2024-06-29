@@ -18,7 +18,7 @@ function getSongTitle(song) {
 function loadSong(song) {
     title.innerText = getSongTitle(song);
     // قرار دادن آهنگ
-    audio.src = `Anne-Marie%20-%202002.mp3`;
+    audio.src = `https://dl.ahaang.com/98/12/26/Anne%20Marie%20-%20FRIENDS.mp3`;
     // قرار دادن لینک کاور
     cover.src = `https://ahaang.com/wp-content/uploads/2020/03/Anne-Marie-FRIENDS.jpg`;
 }
