@@ -8,7 +8,7 @@ const progressContainer = document.getElementById("progress-container");
 const title = document.getElementById("title");
 const cover = document.getElementById("cover");
 
-const songs = ["Friends"];
+const songs = ["Anne Marie Friends", "Anne Marie Friends", "Anne Marie Friends"];
 let songIndex = 1;
 
 function getSongTitle(song) {
