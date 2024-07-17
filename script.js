@@ -8,7 +8,7 @@ const progressContainer = document.getElementById("progress-container");
 const title = document.getElementById("title");
 const cover = document.getElementById("cover");
 
-const songs = ["Anne Marie Friends", "Anne Marie Friends", "Anne Marie Friends"];
+const songs = ["Anne Marie-2002","Anne Marie-2002","Anne Marie-2002"];
 let songIndex = 1;
 
 function getSongTitle(song) {
@@ -18,9 +18,9 @@ function getSongTitle(song) {
 function loadSong(song) {
     title.innerText = getSongTitle(song);
     // قرار دادن آهنگ
-    audio.src = `https://dl.ahaang.com/98/12/26/Anne%20Marie%20-%20FRIENDS.mp3`;
+    audio.src = 'https://ts13.tarafdari.com/contents/user799730/content-sound/2002.mp3';
     // قرار دادن لینک کاور
-    cover.src = `https://ahaang.com/wp-content/uploads/2020/03/Anne-Marie-FRIENDS.jpg`;
+    cover.src = `https://ts13.tarafdari.com/contents/user799730/content-sound/5_47.jpg`;
 }
 
 
@@ -81,4 +81,3 @@ audio.addEventListener("ended", nextSong);
 
 // Init
 loadSong(songs[songIndex]);
-
